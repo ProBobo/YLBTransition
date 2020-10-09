@@ -6,8 +6,9 @@
 //  Copyright (c) 2020 ProBobo. All rights reserved.
 //
 
+#import <YLBTransition/YLBBaseViewController.h>
 @import UIKit;
 
-@interface YULIBOViewController : UIViewController
+@interface YULIBOViewController :YLBBaseViewController
 
 @end

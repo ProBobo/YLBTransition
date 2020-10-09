@@ -1,16 +1,26 @@
 PODS:
+  - YLBCommon (1.0.0)
   - YLBTransition (0.1.0)
 
 DEPENDENCIES:
+  - YLBCommon (from `https://github.com/ProBobo/YLBCommon.git`)
   - YLBTransition (from `../`)
 
 EXTERNAL SOURCES:
+  YLBCommon:
+    :git: https://github.com/ProBobo/YLBCommon.git
   YLBTransition:
     :path: "../"
 
-SPEC CHECKSUMS:
-  YLBTransition: 5401cce0719ffef552c0b090bfa8475965154b00
+CHECKOUT OPTIONS:
+  YLBCommon:
+    :commit: cc0298d96aa28e38d521f33f5bffc4a5dca47208
+    :git: https://github.com/ProBobo/YLBCommon.git
 
-PODFILE CHECKSUM: 32a34ee0b1950c91888eb13e815352d0b5d03236
+SPEC CHECKSUMS:
+  YLBCommon: 1da4ba715aa64444554959517eb041f3d5c5cb80
+  YLBTransition: 739014c2b658e977898e01dd59229469d8063905
+
+PODFILE CHECKSUM: 2c776cd08e5d6276c3b22b9e67e4c36fedb101fb
 
 COCOAPODS: 1.9.1

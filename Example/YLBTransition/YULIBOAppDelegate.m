@@ -15,6 +15,10 @@
     // Override point for customization after application launch.
     return YES;
 }
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [[UIApplication sharedApplication] nextResponder];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

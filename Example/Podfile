@@ -1,9 +1,13 @@
-use_frameworks!
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+#use_frameworks!
 
 platform :ios, '8.0'
 
 target 'YLBTransition_Example' do
   pod 'YLBTransition', :path => '../'
+  
+  # 基础库
+  pod 'YLBCommon', :git =>'https://github.com/ProBobo/YLBCommon.git'
 
   target 'YLBTransition_Tests' do
     inherit! :search_paths

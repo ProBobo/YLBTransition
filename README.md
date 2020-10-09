@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'YLBTransition'
 ```
 
+##Reference
+
+https://www.jianshu.com/p/a3f3a552458b
+https://github.com/wangtongke/WTKTransitionAnimation
+
 ## Author
 
 ProBobo, 564885081@qq.com

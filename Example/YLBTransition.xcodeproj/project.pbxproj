@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		273ECF13C9A0791DBE81D903 /* Pods_YLBTransition_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DEA8A28236329BCF8A4C1C /* Pods_YLBTransition_Tests.framework */; };
+		13542C511A7BE2408422F32C /* libPods-YLBTransition_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 337F2FABCCB7CC3906AF2F3A /* libPods-YLBTransition_Tests.a */; };
+		46BC663F644AC0E355D605FF /* libPods-YLBTransition_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFB91B74937AABB4F819F5A /* libPods-YLBTransition_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8EDE4B04A8CA153A1CF42D9E /* Pods_YLBTransition_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F2C533D5ECCD811F293CB3B /* Pods_YLBTransition_Example.framework */; };
+		BEB1EF2625306136002329CD /* YULIBOSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB1EF2525306136002329CD /* YULIBOSecondController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +39,10 @@
 
 /* Begin PBXFileReference section */
 		24F86E5694281A81F0F5DBD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		337F2FABCCB7CC3906AF2F3A /* libPods-YLBTransition_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBTransition_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36CDFA693E9B0D3C44D90B10 /* YLBTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBTransition.podspec; path = ../YLBTransition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AB188BBAB4FEF3A187F9666 /* Pods-YLBTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTransition_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBTransition_Example/Pods-YLBTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5E59E0606080B71BF78BCAC7 /* Pods-YLBTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTransition_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLBTransition_Tests/Pods-YLBTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5F2C533D5ECCD811F293CB3B /* Pods_YLBTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YLBTransition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLBTransition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +65,11 @@
 		649685AD17E28E20E52D9E2A /* Pods-YLBTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTransition_Example.debug.xcconfig"; path = "Target Support Files/Pods-YLBTransition_Example/Pods-YLBTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3DEA8A28236329BCF8A4C1C /* Pods_YLBTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23DCC5B169C1C9BD1D2ED67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BEB1EF2425306136002329CD /* YULIBOSecondController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YULIBOSecondController.h; sourceTree = "<group>"; };
+		BEB1EF2525306136002329CD /* YULIBOSecondController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YULIBOSecondController.m; sourceTree = "<group>"; };
 		CAAC8081CF80357699EAFDE3 /* Pods-YLBTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTransition_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLBTransition_Tests/Pods-YLBTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDFB91B74937AABB4F819F5A /* libPods-YLBTransition_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBTransition_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8EDE4B04A8CA153A1CF42D9E /* Pods_YLBTransition_Example.framework in Frameworks */,
+				46BC663F644AC0E355D605FF /* libPods-YLBTransition_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				273ECF13C9A0791DBE81D903 /* Pods_YLBTransition_Tests.framework in Frameworks */,
+				13542C511A7BE2408422F32C /* libPods-YLBTransition_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +137,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				5F2C533D5ECCD811F293CB3B /* Pods_YLBTransition_Example.framework */,
-				A3DEA8A28236329BCF8A4C1C /* Pods_YLBTransition_Tests.framework */,
+				FDFB91B74937AABB4F819F5A /* libPods-YLBTransition_Example.a */,
+				337F2FABCCB7CC3906AF2F3A /* libPods-YLBTransition_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,6 +154,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				BEB1EF2425306136002329CD /* YULIBOSecondController.h */,
+				BEB1EF2525306136002329CD /* YULIBOSecondController.m */,
 			);
 			name = "Example for YLBTransition";
 			path = YLBTransition;
@@ -207,7 +212,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				79B5A23AFDC8758501CA4E39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,24 +299,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		79B5A23AFDC8758501CA4E39 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-YLBTransition_Example/Pods-YLBTransition_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YLBTransition/YLBTransition.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YLBTransition.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YLBTransition_Example/Pods-YLBTransition_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7BEA08464600BFDB4E9418CB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +353,7 @@
 				6003F59E195388D20070C39A /* YULIBOAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* YULIBOViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BEB1EF2625306136002329CD /* YULIBOSecondController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
