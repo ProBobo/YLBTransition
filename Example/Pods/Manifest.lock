@@ -1,0 +1,16 @@
+PODS:
+  - YLBTransition (0.1.0)
+
+DEPENDENCIES:
+  - YLBTransition (from `../`)
+
+EXTERNAL SOURCES:
+  YLBTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YLBTransition: 5401cce0719ffef552c0b090bfa8475965154b00
+
+PODFILE CHECKSUM: 32a34ee0b1950c91888eb13e815352d0b5d03236
+
+COCOAPODS: 1.9.1

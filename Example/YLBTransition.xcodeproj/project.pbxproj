@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24F86E5694281A81F0F5DBD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		36CDFA693E9B0D3C44D90B10 /* YLBTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLBTransition.podspec; path = ../YLBTransition.podspec; sourceTree = "<group>"; };
+		24F86E5694281A81F0F5DBD7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		36CDFA693E9B0D3C44D90B10 /* YLBTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLBTransition.podspec; path = ../YLBTransition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5AB188BBAB4FEF3A187F9666 /* Pods-YLBTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTransition_Example.release.xcconfig"; path = "Target Support Files/Pods-YLBTransition_Example/Pods-YLBTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5E59E0606080B71BF78BCAC7 /* Pods-YLBTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTransition_Tests.release.xcconfig"; path = "Target Support Files/Pods-YLBTransition_Tests/Pods-YLBTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5F2C533D5ECCD811F293CB3B /* Pods_YLBTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3DEA8A28236329BCF8A4C1C /* Pods_YLBTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLBTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B23DCC5B169C1C9BD1D2ED67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B23DCC5B169C1C9BD1D2ED67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CAAC8081CF80357699EAFDE3 /* Pods-YLBTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBTransition_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YLBTransition_Tests/Pods-YLBTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				CAAC8081CF80357699EAFDE3 /* Pods-YLBTransition_Tests.debug.xcconfig */,
 				5E59E0606080B71BF78BCAC7 /* Pods-YLBTransition_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

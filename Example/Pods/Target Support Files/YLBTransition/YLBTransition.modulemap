@@ -1,0 +1,6 @@
+framework module YLBTransition {
+  umbrella header "YLBTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
